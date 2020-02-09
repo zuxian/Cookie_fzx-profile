@@ -28,21 +28,21 @@ section{
 }
 
 h1{
-    font-size: 60px;
+    /*font-size: 60px;*/
     font-family: 'Times New Roman', Times, serif;
     color: white;
     margin:10px;
     text-align: center;
 }
 h2{
-    font-size: 40px;
+    /*font-size: 40px;*/
     color: white; 
     margin:10px;
     text-align: center;
 }
 h3{
     text-align: center;
-    font-size: 30px;
+    /*font-size: 30px;*/
     padding: 40px 10px 10px  10px;
     border-bottom: 2px solid hotpink;
     width: 250px;
@@ -52,7 +52,7 @@ h3{
 h4{
     text-align: center;
     /*color:black;*/
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 30px;
     padding: 10px 0 10px  0;
     border-bottom: 2px solid hotpink;
@@ -63,7 +63,7 @@ h4{
 h5{
     text-align: center;
     color:white;
-    font-size: 16px;
+    /*font-size: 16px;*/
     line-height: 40px;
     margin: 0;
 }
@@ -75,7 +75,7 @@ p{
 .intro{
     color: gray;   
 }
-/* 响应式部分 */
+/*!* 响应式部分 *!*/
 @media only screen and (max-width: 415px){
     #floor1 div.myIntro h1,h2{
         font-size: 28px;
@@ -86,6 +86,8 @@ p{
         margin: 10px auto;
     }
 }
+
+
 /* 全局 */
 .main{
     width:100%;
@@ -195,8 +197,11 @@ p{
 /* floor2 */
 #floor3{
     background-attachment: fixed;
-    background-image: url(images/floor3.jpg);
+    /*background-image: url(images/body_bg.png);*/
+    /*-webkit-mask:url("images/body_bg.png")  40px  55px  no-repeat;*/
+    background-image:   url(images/bgtran4.png)
 }
+
 .part{
     margin-top: 50px;
 }
@@ -259,7 +264,7 @@ p{
 /* floor4 */
 #floor5{
     background-attachment: fixed;
-    background-image: url(images/floor5.jpg);
+    background-image: url(images/bgtran4.png);
     height: 700px;
 }
 .circle_html{
@@ -418,10 +423,15 @@ p{
 
 
 /*!*contact page*!*/
-.contact {
-    background: whitesmoke;
 
+#floor7{
+    background-attachment: fixed;
+    background-image: url(images/bgtran4.png);
+    height: 700px;
 }
+
+
+
  .contact-circle {
     display: flex;
     margin: 0 auto 86px;
